@@ -7,36 +7,59 @@ body {
 header {
     background-color: white;
 }
-.main-header {
-    text-align: center;
-    margin: 5%;
+
+.header-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 5% 5% 0% 5%;
 }
+
+.header-main-box {
+    margin-left: 1%;
+}
+
+.bio-photo-box img {
+    border-radius: 50%;
+}
+
 nav {
     text-align: center;
     margin-bottom: 3%;
+    font-family: 'Indie Flower', cursive;
+    font-size: large;
 }
 .nav-link {
     margin: 1%;
 }
 .link {
     text-decoration: none;
+    color: black;
 }
 .link:hover {
     text-decoration: underline;
+    color: blue;
 }
 section {
     width: 100%;
     background-color: rgb(195, 219, 233);
-    padding-top: 4%;
-    padding-right: 10%;
-    padding-bottom: 8%;
-    padding-left: 10%;
+    padding: 4% 10% 8% 10%;
+    font-family: 'Cormorant SC', serif;
 }
 .section-header {
     text-decoration: underline;
     padding-top: 5%;
     margin-bottom: 3%;
 }
+.section-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.bio {
+    padding-right: 20%;
+}
+
 .article-header {
     margin: 3% 0% 3% 0%;
 }
