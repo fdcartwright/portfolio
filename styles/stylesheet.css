@@ -113,3 +113,39 @@ footer {
     background-color: white;
 }
 
+/* Contact Page CSS */
+
+.form-section h1 {
+    padding-left: 40px;
+    font-family: 'Cormorant SC', serif;
+}
+
+button, input, select, textarea {
+    font-family: 'Cormorant SC', serif;
+    font-size: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: block;
+    margin: 8px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.form-box {
+    background-color:#F5F5F5;
+    display: flex;
+    justify-content: center;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 5px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+

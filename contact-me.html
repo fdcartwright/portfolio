@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Dan's Portfolio | About</title>
+    <title>Dan's Portfolio | Contact</title>
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
     <script src="https://kit.fontawesome.com/a10f05eb87.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,29 +34,31 @@
             <a class="link nav-link" href="contact-me.html">Contact</a>
         </nav>
     </header>
-    <br>
-    <section>
-        <h2>Bio</h2>
-        <article class="section-container">
-
-            <h3 class="bio"><i class="fa-solid fa-user-astronaut">&nbsp;</i> Meet Dan</h3>
-            <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-            <h3>Dan's interests</h3>
-            <ul>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-                <li>Lorem ipsum</li>
-
-            </ul>
-        </article>
-    </section>
-    <br>
+    <div class="form-section">
+        <h1>Contact Dan</h1>
+        <div class="form-container">
+            <div class="form-box">
+                <form method="GET">
+                    <label> First Name:
+                        <input type="text" name="applicantFirstName" required>
+                    </label>
+                    <label> Last Name:
+                        <input type="text" name="applicantLastName" required>
+                    </label>
+                    <label> Phone:
+                        <input type="number" name="applicantNumber" required>
+                    </label>
+                    <label> Email:
+                        <input type="email" name="applicantEmail" required>
+                    </label>
+                    <label> Comment:
+                        <textarea name="applicantComment" rows="4" cols="30"></textarea>
+                    </label>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
     <footer>
         <p>Created by Dan Cartwright</p>
     </footer>
